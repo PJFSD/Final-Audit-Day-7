@@ -1,0 +1,122 @@
+
+   /* Global */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f6f9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+   /* Form */
+
+.form-container {
+  width: 400px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Style */
+
+.project-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.project-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.project-form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.project-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.project-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Table Section */
+
+.projects-section {
+  margin-top: 30px;
+}
+
+.projects-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Table Style */
+
+table {
+  width: 90%;
+  margin: 0 auto 40px auto;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .form-container {
+    width: 90%;
+  }
+
+  table {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+}
